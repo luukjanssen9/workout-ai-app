@@ -6,8 +6,3 @@ __pycache__/
 *.pyc
 .env
 
-# VSCode
-.vscode/
-
-# IDEs and editors
-.idea/

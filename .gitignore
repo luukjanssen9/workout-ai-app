@@ -1,17 +1,23 @@
-# Node.js
-node_modules/
-
-# Ignore virtual environments
+# Backend
 venv/
-
-# Ignore Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore environment variable files
-.env
+# Frontend
+node_modules/
+.next/
+*.log
+*.tsbuildinfo
 
-# Ignore database files
-*.db
+# Database
+workouts.db
 
+# OS-specific
+.DS_Store
+Thumbs.db
 
+# IDE/editor-specific
+.vscode/
+.idea/

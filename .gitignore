@@ -1,8 +1,17 @@
 # Node.js
 node_modules/
 
-# Python
+# Ignore virtual environments
+venv/
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
+
+# Ignore environment variable files
 .env
+
+# Ignore database files
+*.db
+
 
